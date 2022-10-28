@@ -1,0 +1,69 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/329362.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#4d8fd6;
+
+    }
+  
+ h1 {
+    background-color: #212121;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;
+}
+h3 {
+    color: blue;
+    text-align: auto;
+    font-weight: bold;
+}
+
+.parent {
+    display: flex;
+}
+
+.list {
+    flex: 3;
+}
+
+.form {
+    flex: 1;
+    background: rgba(234, 237, 237, 0.732);
+}
+
+.my-control {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.my-control label {
+    width: 110px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.my-control input,
+.mycontrol select,
+.mycontrol textarea {
+    flex-grow: 1;
+}
+
+.centered {
+    text-align: center;
+}
+
+.icon {
+    font-size: 35px;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+.fas {
+    color: rgb(245, 12, 206)
+}
